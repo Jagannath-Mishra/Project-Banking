@@ -19,7 +19,7 @@ public class SavingsAccount {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
-	private int accountNumber;
+	private int accountNumber; 
 	private BigDecimal accountBalance;
 	
 	
